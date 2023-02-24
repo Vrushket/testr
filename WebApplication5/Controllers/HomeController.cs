@@ -37,7 +37,7 @@ namespace WebApplication5.Controllers
             objModel.Add(new LoginModel { UserName = "user2", UserPassword = "password2" });
             objModel.Add(new LoginModel { UserName = "user3", UserPassword = "password3" });
             objModel.Add(new LoginModel { UserName = "user4", UserPassword = "password4" });
-            objModel.Add(new LoginModel { UserName = "user5", UserPassword = "password5" });
+            objModel.Add(new LoginModel { UserName = "user6", UserPassword = "password5" });
             return objModel;
         }
     }
