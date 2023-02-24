@@ -22,7 +22,7 @@ namespace WebApplication5.Controllers
             var display = Userloginvalues().Where(m => m.UserName == objuserlogin.UserName && m.UserPassword == objuserlogin.UserPassword).FirstOrDefault();
             if (display != null)
             {
-                ViewBag.Status = "CORRECT UserNAme and Password";
+                ViewBag.Status = "CORRECT UsernAme and Password";
             }
             else
             {
@@ -35,8 +35,8 @@ namespace WebApplication5.Controllers
             List<LoginModel> objModel = new List<LoginModel>();
             objModel.Add(new LoginModel { UserName = "user1", UserPassword = "password1" });
             objModel.Add(new LoginModel { UserName = "user2", UserPassword = "password2" });
-            objModel.Add(new LoginModel { UserName = "user3", UserPassword = "password3" });
-            objModel.Add(new LoginModel { UserName = "user4", UserPassword = "password4" });
+            objModel.Add(new LoginModel { UserName = "user7", UserPassword = "password3" });
+            objModel.Add(new LoginModel { UserName = "user3", UserPassword = "password4" });
             objModel.Add(new LoginModel { UserName = "user6", UserPassword = "password5" });
             return objModel;
         }
